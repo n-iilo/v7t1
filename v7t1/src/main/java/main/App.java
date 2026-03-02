@@ -32,8 +32,10 @@ public class App {
 
                     if (type == 1) {
                         library.addBook(new FictionBook(title, author, pages, copies));
+                        System.out.println("Kirja lisätty kirjastoon!");
                     } else {
                         library.addBook(new NonFictionBook(title, author, pages, copies));
+                        System.out.println("Kirja lisätty kirjastoon!");
                     }
                     break;
                 case 2:
@@ -87,3 +89,4 @@ public class App {
         sc.close();
     }
 }
+
