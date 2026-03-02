@@ -19,7 +19,7 @@ public class FictionBook extends Book implements Borrowable {
             this.borrowedCopies++;
             System.out.println("Kirja " + title + " on nyt lainattu.");
         } else {
-            System.out.println("Kirjaa ei löytynyt tai sitä ei voi lainata.");
+            System.out.println("Kirjaa " + title + " ei enään ole lainattavissa!");
         }
     }
     
